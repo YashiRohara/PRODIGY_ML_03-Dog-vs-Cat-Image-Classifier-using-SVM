@@ -73,7 +73,7 @@ Model Accuracy: **54.28%**
 
 
 # 📌 Confusion Matrix
-![Confusion Matrix](output/confusion matrix.png)
+![Confusion Matrix](output/confusion_matrix.png)
 
 # ▶️ How to Run the Project
 ##Step 1: Install 
