@@ -38,9 +38,11 @@ Dog-Cat-Classifier-master/
 ├── output/
 ├── main.py
 └── README.md
+```
+
 
 # ⚙️ Workflow
-
+```bash
 📂 Load dataset images using OpenCV
 🖼️ Resize all images to 64×64
 🔢 Convert images into flattened feature vectors
@@ -54,49 +56,59 @@ Dog-Cat-Classifier-master/
 🔍 Predict image classes on test data
 📊 Evaluate model accuracy
 🖼️ Visualize prediction results using Matplotlib
-
+```
 # 📊 Model Accuracy
-Model Accuracy: 54.28%
-Accuracy may improve with:
-More training data
-Better preprocessing
-Deep Learning models like CNN
+```bash
+Model Accuracy: **54.28%**
+###Accuracy may improve with:
+-More training data
+-Better preprocessing
+-Deep Learning models like CNN
+```
 
 # 🖼️ Sample Prediction Output
 ![SAMPLE PREDICTION](output/Figure_1.png)
 ![SAMPLE PREDICTION](output/Figure_3.png)
 ![SAMPLE PREDICTION](output/Figure_5.png)
 
+
 # 📌 Confusion Matrix
 ![Confusion Matrix](output/confusion matrix.png)
 
-▶️ How to Run the Project
-Step 1: Install Dependencies
+# ▶️ How to Run the Project
+##Step 1: Install 
+```bash
 pip install numpy matplotlib opencv-python scikit-learn
-
-Step 2: Run the Program
+```
+##Step 2: Run the Program
+```bash
 python main.py
+```
 
-📚 Learning Outcomes
+# 📚 Learning Outcomes
+```bash
 Through this project, I learned:
+- Basics of Image Classification
+- Image preprocessing techniques
+- Feature extraction
+- Working with SVM
+- Model training & testing
+- Data visualization
+```
 
-Basics of Image Classification
-Image preprocessing techniques
-Feature extraction
-Working with SVM
-Model training & testing
-Data visualization
-
-
-🔮 Future Improvements
+# 🔮 Future Improvements
+```bash
 ✨ Improve accuracy using CNN
 ✨ Add real-time image prediction
 ✨ Build GUI/Web App
 ✨ Use larger datasets
+```
 
-👩‍💻 Author
+# 👩‍💻 Author
 Yashi Rohara
+```bash
 Aspiring Software Developer passionate about:
 Machine Learning
 Computer Vision
 Real-world AI Projects
+```
