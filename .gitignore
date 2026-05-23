@@ -1,0 +1,6 @@
+# Dataset files
+Dog-Cat-Classifier-master/
+*.npy
+
+# Python cache
+__pycache__/
