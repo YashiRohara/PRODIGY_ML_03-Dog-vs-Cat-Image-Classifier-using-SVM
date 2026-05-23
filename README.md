@@ -1,36 +1,33 @@
-🐶🐱 Cat vs Dog Image Classifier using SVM
-📌 Project Overview
+# 🐶🐱 Dog vs Cat Image Classifier using SVM
 
-This project is a Machine Learning based Image Classification system that classifies images as either Cat or Dog using the Support Vector Machine (SVM) algorithm.
+A Machine Learning based Image Classification project that classifies images as **Cat** or **Dog** using the **Support Vector Machine (SVM)** algorithm.
 
-The model is trained on image data after preprocessing steps like:
+---
 
-Image resizing
-Flattening image pixels
-Label encoding
-Train-test splitting
+# 🚀 Features
 
-The project demonstrates how traditional Machine Learning algorithms can be used for image classification without Deep Learning.
+- ✅ Image preprocessing using OpenCV
+- ✅ Resize images to fixed dimensions (64x64)
+- ✅ Convert images into flattened feature vectors
+- ✅ Train an SVM classifier
+- ✅ Predict whether an image is a Cat or Dog
+- ✅ Visualize prediction results using Matplotlib
 
-🚀 Features
+---
 
-✅ Image preprocessing using OpenCV
-✅ Resize images to fixed dimensions (64×64)
-✅ Convert images into numerical feature vectors
-✅ Train an SVM classifier
-✅ Predict whether an image is a Cat or Dog
-✅ Visualize prediction results using Matplotlib
+# 🛠️ Technologies Used
 
-🛠️ Technologies Used
-Technology	Purpose
-Python	Programming Language
-OpenCV	Image Processing
-NumPy	Numerical Operations
-Matplotlib	Visualization
-Scikit-learn	Machine Learning
+- Python
+- OpenCV
+- NumPy
+- Matplotlib
+- Scikit-learn
 
-📂 Dataset Structure
+---
 
+# 📂 Dataset Structure
+
+```bash
 Dog-Cat-Classifier-master/
 │
 ├── Data/
@@ -38,10 +35,11 @@ Dog-Cat-Classifier-master/
 │   │   ├── cat/
 │   │   └── dog/
 │
+├── output/
 ├── main.py
 └── README.md
 
-⚙️ Workflow
+# ⚙️ Workflow
 
 📂 Load dataset images using OpenCV
 🖼️ Resize all images to 64×64
@@ -57,19 +55,20 @@ Dog-Cat-Classifier-master/
 📊 Evaluate model accuracy
 🖼️ Visualize prediction results using Matplotlib
 
-📊 Model Accuracy
+# 📊 Model Accuracy
 Model Accuracy: 54.28%
-
 Accuracy may improve with:
-
 More training data
 Better preprocessing
 Deep Learning models like CNN
 
-🖼️ Sample Prediction Output
+# 🖼️ Sample Prediction Output
 ![SAMPLE PREDICTION](output/Figure_1.png)
 ![SAMPLE PREDICTION](output/Figure_3.png)
 ![SAMPLE PREDICTION](output/Figure_5.png)
+
+# 📌 Confusion Matrix
+![Confusion Matrix](output/confusion matrix.png)
 
 ▶️ How to Run the Project
 Step 1: Install Dependencies
