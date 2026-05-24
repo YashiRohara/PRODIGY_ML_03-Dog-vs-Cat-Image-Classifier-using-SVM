@@ -126,8 +126,3 @@ for i in range(15):
 
     plt.axis("off")
     plt.show()
-'''# Display image
-plt.imshow(img_rgb)
-plt.title("Sample Cat Image")
-plt.axis("off")
-plt.show()'''
